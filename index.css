@@ -22,7 +22,9 @@
     font-family: Montserrat-Light;
     src: url(./font/Montserrat/static/Montserrat-Light.ttf);
 }
-
+body{
+    background: #fff;
+}
 *{
     margin: 0;
 }
@@ -36,6 +38,7 @@ header{
     justify-content: space-evenly;
     height: 134px;
     align-items:center;
+    z-index: 1000;
 }
 .header-link{
     height: 24px;
@@ -65,7 +68,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 12%;
+    padding-top: 18%;
     padding-left: 11%;
     padding-right:11%;
     padding-bottom: 2%;
@@ -75,7 +78,7 @@ header{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-bottom: 23%;
+    margin-bottom: 18%;
 }
 .carousel-btns{
     height: 7%;
@@ -264,4 +267,750 @@ header{
     line-height: 100%;
     color: #000;
     margin-bottom: 33px;
+}
+.price-category{
+    padding-left: 107px;
+    padding-right: 107px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #001361;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-category-title{
+    display: flex;
+    align-items: center;
+    font-family: Normalidad-Wide;
+    font-size: 46px;
+    height: 62px;
+    line-height: 100%;
+    color: #001361;
+    text-transform: lowercase;
+}
+.description{
+    background: url(/images/descriptionbg.png);
+    background-size: 100%;
+    padding-top: 138px;
+    padding-bottom: 138px;
+    padding-left: 90px;
+    padding-right: 180px;
+}
+.description-content{
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 4px 37.3px -1px #00000033;
+    width: 100%;
+    display: flex;
+    border-radius: 90px;
+    padding-top: 97px;
+    padding-bottom: 97px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+.description-content-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description-content-card-title{
+    font-weight: 400;
+    font-family: Non-Bureau-Light;
+    font-size: 160px;
+    line-height: 100%;
+    color: #001361;
+}
+.description-content-card-note{
+    font-size: 30px;
+    line-height: 30px;
+    font-family: Normalidad-Wide;
+    color: #fff;
+    text-align: center;
+}
+.fishka{
+    padding-left: 107px;
+    padding-right: 107px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background: #001361;
+}
+.fishka-title-line{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+.fishka-title-line-title{
+    font-family: Non-Bureau-Light;
+    font-weight: 300;
+    font-size: 80px;
+    color: #fff;
+    letter-spacing: 3%;
+}
+.fishka-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.fishka-content-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 361px;
+}
+.fishka-content-card-img{
+    border-radius: 30px;
+    width: 361px;
+    margin-bottom: 22px;
+}
+.fishka-content-card-title{
+    font-family: Normalidad-Wide;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+.fishka-content-card-description{
+    font-family: Montserrat-Regular;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+}
+.reviews{
+    background: url(/images/descriptionbg.png);
+    background-size: 100%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.reviews-title-line{
+    padding-left: 107px;
+    padding-right: 107px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+.reviews-title-line-title{
+    font-family: Non-Bureau-Light;
+    font-weight: 300;
+    font-size: 80px;
+    color: #fff;
+    letter-spacing: 3%;
+}
+.reviews-content{
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 4px 37.3px -1px #00000033;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px;
+    border-radius: 90px;
+    justify-content: space-between;
+}
+.reviews-content-card{
+    padding: 44px;
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+}
+.reviews-content-card-name{
+    font-weight: 500;
+    font-family: Non-Bureau-Medium;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #001361;
+    margin-bottom: 22px;
+}
+.reviews-content-card-review{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    font-family: Montserrat-Light;
+    margin-bottom: 50px;
+}
+.reviews-content-card-klinika{
+    font-weight: 500;
+    font-family: Non-Bureau-Medium;
+    font-size: 26px;
+    line-height: 100%;
+    color: #001361;
+    width: 136px;
+    margin-bottom: 22px;
+}
+.reviews-content-card-grade{
+    font-weight: 500;
+    font-family: Non-Bureau-Medium;
+    font-size: 26px;
+    line-height: 100%;
+    color: #001361;
+}
+.faqw{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.faqw-preview{
+    padding-left: 107px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #001361;
+}
+.faqw-preview-title{
+    font-weight: 300;
+    font-family: Non-Bureau-Light;
+    font-size: 80px;
+    line-height: 100%;
+    color: #001361;
+}
+.faqw-category{
+    padding-left: 107px;
+    padding-right: 107px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #001361;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faqw-category-title{
+    display: flex;
+    align-items: center;
+    font-family: Normalidad-Wide;
+    font-size: 46px;
+    height: 62px;
+    line-height: 100%;
+    color: #001361;
+    text-transform: lowercase;
+}
+.faqw-btn{
+    margin-top: 45px;
+    margin-left: 107px;
+    height: 66px;
+    width: 413px;
+    background: #001361;
+    border-radius: 100px;
+    border: none;
+    font-weight: 500;
+    color: #fff;
+    font-size: 22px;
+    line-height: 100%;
+    font-family: Non-Bureau-Medium;
+    font-weight: 500;
+}
+.map{
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background: #001361;
+    padding-left: 107px;
+    padding-right: 107px;
+}
+.map-logo{
+    height: 46px;
+    margin-bottom: 22px;
+}
+.map-content{
+    display: flex;
+    justify-content: space-between;
+}
+.map-content-img{
+    height: 500px;
+    border-radius: 30px;
+}
+.map-content-klinika-title{
+    font-weight: 500;
+    line-height: 100%;
+    font-family: Non-Bureau-Medium;
+    font-size: 16px;
+    color: #fff;    
+}
+.map-content-klinika-adress{
+    font-weight: 300;
+    line-height: 100%;
+    font-size: 16px;
+    font-family: Non-Bureau-Light;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.map-content-klinika-tel{
+    font-weight: 500;
+    line-height: 100%;
+    font-family: Non-Bureau-Medium;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none; 
+}
+.map-content-klinika{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 31px;
+}
+.map-content-klinika-btn{
+    margin-left: 61px;
+    width: 170px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    background: #fff;
+    color: #001361;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 100%;
+    font-family: Non-Bureau-Medium;
+}
+footer{
+    padding-top: 55px;
+    padding-left: 107px;
+    padding-right: 107px;
+}
+.footer-input-title{
+    font-weight: 300;
+    font-family: Normalidad-Wide;
+    font-size: 30px;
+    line-height: 100%;
+    text-transform: lowercase;
+    color: #001361;
+}
+.footer-form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 36px;
+    margin-bottom: 134px;
+}
+.footer-form-input{
+    width: 313px;
+    height: 56px;
+    border-radius: 100px;
+    border: 2px solid #001361;
+    text-align: center;
+    background-color: #fff;
+    color: #001361;
+    font-weight: 300;
+    font-family: Normalidad-Wide;
+    font-size: 22px;
+    line-height: 100%;
+}
+.footer-form-btn{
+    width: 313px;
+    height: 62px;
+    border-radius: 100px;
+    border: 2px solid #001361;
+    background-color: #001361;
+    font-weight: 300;
+    font-family: Normalidad-Wide;
+    font-size: 22px;
+    line-height: 100%;
+    color: #fff;
+    cursor: pointer;   
+}
+.footer-tabs{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-tabs-links{
+    display: flex;
+    
+}
+.footer-tabs-links-block-link{
+    font-weight: 300;
+    font-family: Non-Bureau-Light;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #001361;
+    text-decoration: none;
+}
+.footer-tabs-links-block-link-first{
+    font-weight: 500;
+    font-family: Non-Bureau-Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #001361;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.footer-tabs-links-block{
+    display: flex;
+    flex-direction: column;
+    margin-right: 19px;
+}
+.footer-tabs-info{
+    display: flex;
+    flex-direction: column;
+}
+.footer-tabs-info-links-tel{
+    font-weight: 500;
+    font-family: Non-Bureau-Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #001361;
+    text-decoration: none;
+    margin-right: 48px;
+}
+.footer-tabs-info-links{
+    align-items: center;
+    display: flex;
+    margin-bottom: 53px;
+}
+.footer-tabs-info-links-network{
+    text-decoration: none;
+    margin-right: 12px;
+}
+.darling-title-icon{
+    margin-bottom: 10px;margin-left: 12px;
+}
+.price-relevance-icon{
+    margin-right: 65px;
+}
+.price-category-title-icon{
+    margin-right: 73px;
+}
+.faqw-category-title-icon{
+    margin-right: 73px;
+}
+
+@media(max-width:767px){
+    .header-link{
+        display: none;
+    }
+    .header-tel{
+        display: none;
+    }
+    .header-logo{
+        height: 13px;
+        margin-right: 48px;
+    }
+    .header-logo-img{
+        height: 13px;
+    }
+    header{
+        justify-content: center;
+        align-items: center;
+        height: 83px;
+    }
+    .header-networks{
+        height: 19px;
+    }
+    .header-networks-link{
+        height: 19px;
+    }
+    .header-networks-link-img{
+        height: 19px;
+    }
+    .carousel{
+        width: 100%;
+        display: none;
+    }
+    .greetings{
+
+    }
+    .greetings-content-logo{
+        margin-bottom: 26px;
+        height: 33px;
+    }
+    .greetings-content-subtitle{
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+    .greetings-content-description{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .darling{
+        padding-top: 15px;
+    }
+    .darling-title{
+        font-size: 23px;
+        margin-bottom: 28px;
+    }
+    .darling-title-icon{
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    .darling-content-cards-card{
+        height: 302px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .darling-content-cards-card-img{
+        height: 302px;
+        margin-bottom: 0px;
+    }
+    .darling-content-cards-card-link{
+        width: 244px;
+        height: 38px;
+        margin-top: -66px;
+        z-index: 2;
+    }
+    .advantage-left{
+        font-size: 17px;
+    }
+    .advantage-right{
+        font-size: 13px;
+    }
+    .advantage{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 24px;
+    }
+    .advantage-left{
+        width: 100%;
+    }
+    .advantage-right{
+        width: 100%;
+    }
+    .procedures{
+        display: none;
+    }
+    .guarantee{
+        display: none;
+    }
+    .price{
+        padding-top: 66px;
+    }
+    .price-preview{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .price-title-line{
+
+    }
+    .price-title-line-title{
+        font-size: 40px;
+    }
+    .price-relevance{
+        font-size: 11px;
+    }
+    .price-relevance-icon{
+        margin-right: 42px;
+        height: 24px;
+    }
+    .price-category-title-icon{
+        margin-right: 42px;
+        height: 17px;
+    }
+    .price-category{
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .price-category-title{
+        font-size: 17px;
+    }
+    .price-category-btn-icon{
+        height: 31px;
+    }
+    .description{
+        display: none;
+    }
+    .fishka{
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+    .fishka-title-line-title{
+        font-size: 40px;
+    }
+    .fishka-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fishka-content-card{
+        margin-bottom: 30px;
+    }
+    .fishka-content-card-img{
+        height: 302px;
+        width: 354px;
+        margin-bottom: 14px;
+    }
+    .fishka-content-card-title{
+        font-size: 20px;
+        line-height: 21px;
+        margin-bottom: 14px;
+    }
+    .fishka-content-card-description{
+        font-size: 13px;
+    }
+    .reviews-title-line{
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+    .reviews-title-line-title{
+        font-size: 40px;
+    }
+    .reviews-content{
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 46px;
+        padding-right: 46px;
+        padding-bottom: 50px;
+        width: 65%;
+    }
+    .reviews-content-card{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .reviews-content-card-name{
+        font-size: 19px;
+    }
+    .reviews-content-card-review{
+        font-size: 11px;
+    }
+    .reviews-content-card-klinika{
+        font-size: 17px;
+    }
+    .reviews-content-card-grade{
+        font-size: 18px;
+    }
+    .reviews-content-card-grade-icon{
+        height: 12.5px;        
+    }
+    .faqw-preview{
+        padding-left: 19px;
+    }
+    .faqw-preview-title{
+        font-size: 40px;
+    }
+    .faqw-category{
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
+    .faqw-category-title{
+        font-size: 17px;
+        width: 295px;
+        margin-right: 23px;
+    }
+    .faqw-category-title-icon{
+        margin-right: 42px;
+        width: 19px;
+    }
+    .faqw-category-btn{
+        height: 31px;
+    }
+    .faqw-category-btn-icon{
+        height: 100%;
+    }
+    .faqw-btn{
+        display: block;
+        margin: 0 auto;
+        margin-top: 33px;
+        width: 244px;
+        height: 33px;
+        font-size: 20px;
+        font-weight: 1;
+        font-family: Normalidad-Wide;
+        text-transform: lowercase;
+    }
+    .map{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .map-content-img{
+        margin-bottom: 14px;
+    }
+    .map-logo{
+        width: 277px;
+    }
+    .map-content{
+        flex-direction: column;
+    }
+    .map-content-img{
+        height: 315px;
+    }
+    .map-content-klinika{
+        flex-direction: column;
+        align-items: center;
+    }
+    .map-content-klinika-title{
+        text-align: center;
+    }
+    .map-content-klinika-adress{
+        text-align: center;
+    }
+    .map-content-klinika-tel{
+        text-align: center;
+    }
+    .map-content-klinika-text{
+        text-align: center;
+        margin-bottom: 14px;
+    }
+    .map-content-klinika-btn{
+        margin-left: 0;
+    }
+    footer{
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-input-title{
+        text-align: center;
+        font-size: 14px;
+        line-height: 100%;
+        margin-bottom: 19px;
+    }
+    .footer-form{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+    }
+    .footer-form-input{
+        width: 180px;
+        height: 34px;
+        margin-bottom: 13px;
+        font-size: 14px;
+    }
+    .footer-form-btn{
+        width: 180px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .footer-tabs{
+        flex-direction: column;
+        display: flex;
+    }
+    .footer-tabs-links{
+        flex-direction: column;
+    }
+    .footer-tabs-links-block{
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    .footer-tabs-info{
+        align-items: center;
+    }
+    .footer-tabs-info-links{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-tabs-info-links-tel{
+        margin-right: 0;
+        margin-bottom: 5px;
+        height: 24px;
+        
+    }
+    .footer-tabs-info-links-network{
+        margin-right: 0;
+    }
+    .footer-tabs-info-links-networks{
+        display: flex;
+        width: 93px;
+        justify-content: space-between;
+    }
+    .footer-tabs-links-block-link{
+        font-size: 12px;
+    }
+    .footer-tabs-links-block-link-first{
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+    .footer-tabs-info-links-tel{
+        font-size: 14px;
+        margin-right: 0;
+    }
 }
